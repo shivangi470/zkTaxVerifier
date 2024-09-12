@@ -1,4 +1,13 @@
-pragma circom 2.0.0;
+
+template IsEqual() {
+    signal input a;
+    signal input b;
+    signal output out;
+
+    signal diff;
+    diff <== a - b;
+    out <== 1 - diff * diff;  
+}
 
 template TaxCompliance() {
     signal input income;
@@ -8,9 +17,12 @@ template TaxCompliance() {
     signal output taxCalculated;
     taxCalculated <== income - deductions;
 
-    // Check if the tax is correct by using a signal difference
-    signal isValid;
-    isValid <== (taxCalculated - taxPaid) === 0;
+    component eq = IsEqual();  
+    eq.a <== taxCalculated;  
+    eq.b <== taxPaid;         
+
+    signal output isValid;
+    isValid <== eq.out;       
 }
 
 component main = TaxCompliance();

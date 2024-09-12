@@ -1,0 +1,9 @@
+1,1,1,main.taxCalculated
+2,2,1,main.isValid
+3,-1,1,main.income
+4,-1,1,main.deductions
+5,3,1,main.taxPaid
+6,-1,0,main.eq.out
+7,-1,0,main.eq.a
+8,-1,0,main.eq.b
+9,-1,0,main.eq.diff
