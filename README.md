@@ -1,6 +1,6 @@
 # zkTaxVerifier
 
-
+introduces a privacy-preserving tax compliance verification system (ZKTax) that combines zk-SNARKs and the Poseidon hash function to enable secure and efficient tax verification on the blockchain. By integrating Poseidon into the zk-SNARK circuit, we achieve improved efficiency and reduced complexity in both proof generation and verification. The proposed system can be deployed on Remix IDE, providing a fully decentralized solution for privacy-preserving tax compliance. Future work will focus on further optimizing the system and exploring additional applications of Poseidon in zk-SNARK-based protocols.
 
 
 Here’s a detailed guide based on the reference steps and your current file structure:
