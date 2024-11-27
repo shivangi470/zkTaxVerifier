@@ -4,11 +4,15 @@ introduces a privacy-preserving tax compliance verification system (ZKTax) that 
 
 
 Background and Related Work
+
+
 2.1 Zero-Knowledge Proofs (ZKPs)
 ZKPs enable one party (prover) to prove a statement’s validity to another party (verifier) without revealing the statement itself. zk-SNARKs (Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge) are a class of ZKPs that provide:
 
 Succinctness: Compact proofs.
+
 Non-Interactivity: Single-step proof and verification.
+
 The Groth16 protocol is widely used for zk-SNARKs due to its constant-size proofs and efficient verification.
 
 2.2 Poseidon Hash Function
@@ -18,6 +22,8 @@ Operates over finite fields, making it efficient for zk-SNARK constraints.
 Reduces circuit complexity and proof generation time.
 2.3 Related Work
 Previous works on privacy-preserving compliance, such as Zcash and Tornado Cash, have leveraged zk-SNARKs for anonymity. However, these systems use computationally expensive hash functions (e.g., Pedersen or SHA256). Our work innovates by integrating Poseidon into a tax compliance protocol, improving both performance and usability.
+
+
 
 3. System Design
 3.1 Problem Statement
@@ -29,6 +35,7 @@ The ZKTax protocol consists of three phases:
 Commitment Phase: The user commits to their private tax data using the Poseidon hash.
 Proof Generation Phase: The user generates a zk-SNARK proof demonstrating compliance and matching the hash commitment.
 Verification Phase: A smart contract verifies the proof and ensures the commitment’s integrity on-chain.
+
 
 4. Conclusion
 ZKTax demonstrates the potential of integrating Poseidon hash into zk-SNARK-based protocols for efficient and privacy-preserving tax compliance. By reducing computational overhead and gas costs, ZKTax is a scalable solution for blockchain-based compliance systems. Future work will explore expanding this framework to other regulatory compliance use cases.
