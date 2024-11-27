@@ -26,10 +26,12 @@ Previous works on privacy-preserving compliance, such as Zcash and Tornado Cash,
 
 
 3. System Design
+   
 3.1 Problem Statement
 Users must prove to tax authorities that their tax computations (e.g., taxable income, deductions, and tax paid) comply with regulations, without exposing private details.
 
 3.2 Protocol Overview
+
 The ZKTax protocol consists of three phases:
 
 Commitment Phase: The user commits to their private tax data using the Poseidon hash.
