@@ -248,6 +248,12 @@ By following these steps, you've successfully implemented a **zk-SNARK**-based t
 - [Solidity Documentation](https://soliditylang.org/docs/)
 
 ---
+![Untitled](https://github.com/user-attachments/assets/e2389c24-0dce-4708-a241-9b3afac5f90e)
+
+![image](https://github.com/user-attachments/assets/9a42ed51-c4a6-4f23-bf1a-4ad4c863d2d6)
+
+![image](https://github.com/user-attachments/assets/84d81e5f-c1ad-4a72-afe4-a07013880f6e)
+
 
 ## **License** 📜
 
