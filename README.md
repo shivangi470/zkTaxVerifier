@@ -1,11 +1,12 @@
-# zkTaxVerifier
-
-introduces a privacy-preserving tax compliance verification system (ZKTax) that combines zk-SNARKs and the Poseidon hash function to enable secure and efficient tax verification on the blockchain. By integrating Poseidon into the zk-SNARK circuit, we achieve improved efficiency and reduced complexity in both proof generation and verification. The proposed system can be deployed on Remix IDE, providing a fully decentralized solution for privacy-preserving tax compliance. Future work will focus on further 
 
 # **ZKTax - Zero Knowledge Proof Tax Compliance Verification** 🧾🔐
 
 ## **Introduction** 🚀
 ZKTax is a decentralized solution for tax compliance verification using **zk-SNARKs** (Zero-Knowledge Succinct Non-Interactive Argument of Knowledge). It ensures that tax data is valid without revealing sensitive information. This project uses the **Groth16** protocol to generate proofs and verify them on the Ethereum blockchain.
+
+![Untitled-1](https://github.com/user-attachments/assets/8d041939-4b96-4c72-9d4d-0ef41a11b64e)
+
+![Untitled](https://github.com/user-attachments/assets/e2389c24-0dce-4708-a241-9b3afac5f90e)
 
 ---
 
@@ -248,9 +249,7 @@ By following these steps, you've successfully implemented a **zk-SNARK**-based t
 - [Solidity Documentation](https://soliditylang.org/docs/)
 
 ---
-![Untitled-1](https://github.com/user-attachments/assets/8d041939-4b96-4c72-9d4d-0ef41a11b64e)
 
-![Untitled](https://github.com/user-attachments/assets/e2389c24-0dce-4708-a241-9b3afac5f90e)
 
 ![image](https://github.com/user-attachments/assets/9a42ed51-c4a6-4f23-bf1a-4ad4c863d2d6)
 
